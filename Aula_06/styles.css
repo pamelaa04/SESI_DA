@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0px;
 }
 
-.menu{
+.menu {
     height: 50px;
     background-color: black;
     display: flex;
@@ -12,9 +12,10 @@ body{
     padding: 50px;
 
 }
-.menu img{
-    width: 100px;
-    height: 100px;
+
+.menu img {
+    width: 130px;
+    height: 110px;
     border-radius: 100%;
 }
 
@@ -24,16 +25,74 @@ body{
     text-transform: uppercase;
 }
 
-.campo-pesquisa{
-    height: 60px;
+.campo-pesquisa {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
 .campo-pesquisa input {
-    height: 60px;
-    width: 30%;
-    border-radius: 40px;
-    font-size: 30px;
+    height: 30px;
+    width: 500px;
+    border-radius: 200px;
+    font-size: 20px;
     padding: 20px;
+}
+
+.grupo-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 219px;
+    height: 265px;
+    border-radius: 20px;
+    margin: 8px 50px 8px 50px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.card p {
+    color: white;
+    font-size: 30px;
+    margin: 200px 0px 0px 10px;
+}
+
+.banner {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-banner {
+    background-color: white;
+    height: 200px;
+    width: 70%;
+    padding: 40px 80px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-esquerdo {
+    text-align: center;
+}
+
+.card-direito {
+    background-image: url(./img/gato-laranja.jpg);
+    background-image: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+
+    
+
 }
